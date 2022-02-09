@@ -46,7 +46,7 @@ entropy_pairs_vert_cond = entropy_pairs_vert - entropy
 
 %=======Huffman part=====
 
-huffman_memory_free = huffman(counts_prob)
+huffman_memory_free = huffman(counts_prob)/1
 
 %===Predictor 1===
 predictor1 = zeros(img_size);

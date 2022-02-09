@@ -23,7 +23,7 @@ for i = 1:no_pairs-1
 end
     %size(counts_pairs)
     %plot(counts_pairs);
-size(counts_pairs)
+
 count_pairs_prob = counts_pairs/(length(chosen_sound));
 
 
@@ -38,7 +38,7 @@ entropy_conditional = entropy_pairs - entropy
 % ======================= HUFFMAN PART =====================
 
 %===Memoryless===
-huffman_memory_free = huffman(counts_probs)/1
+huffman_memory_free = huffman(counts_probs)
 
 %===Differences===
 
